@@ -1,0 +1,109 @@
+.loading{
+    text-align: center;
+    color: rgb(20, 20, 111);
+    padding-top:300px;
+    font-size: large;
+    font: bold;
+}
+img{
+    height: 400px;
+    object-fit: cover;
+    object-position: 100% 0;    
+}
+h4{
+    font-size: larger;
+}
+.info{
+    padding:20px;
+}
+p{ 
+    margin-top: -40px;
+    padding:20px;
+}
+.price{
+    float: right;
+    margin-top: -50px;
+    background-color: rgba(0, 255, 255, 0.082);
+    color: rgba(57, 167, 230, 0.921);
+}
+
+.tour{
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+rgba(0, 0, 0, 0.12) 0px -12px 30px,
+rgba(0, 0, 0, 0.12) 0px 4px 6px,
+rgba(0, 0, 0, 0.17) 0px 12px 13px,
+rgba(0, 0, 0, 0.09) 0px -3px 5px;
+font-size: larger;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+margin-bottom: 30px;
+height: max-content;
+width: 800px;
+background-color: white;
+box-shadow: black;
+}
+
+.tours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    color: rgb(20, 20, 111);
+    font-size: 30px;
+    font: bold
+}
+
+.underline{
+    margin-top: -30px;
+    margin-bottom: 30px;
+    margin-left: 629px;
+    border-style:solid;
+    border-width: 3px;
+    width: 240px;
+    color: rgb(25, 118, 200);
+}
+
+body{
+ background-color: rgba(225, 237, 241, 0.911);
+}
+.show{
+    font-size: 16px;
+    overflow: hidden;
+    background: white;
+    border-radius: 3px;
+    border: 0px;
+    text-align: center;
+    color: rgb(24, 158, 236);
+    font: bold;
+}
+.show:hover{
+    cursor: pointer;
+}
+.delete{
+    margin-left: 260px;     
+    background-color: white;
+    border-color: red;
+    color: red;
+    margin-bottom: 10px;
+    width: 300px;
+    font-size: larger;
+}
+.delete:hover{
+    border-color: rgb(193, 6, 6);
+    color: rgb(193, 6, 6);
+    cursor: pointer;
+}
+.refresh{
+    width: 300px;
+    font-size: larger;
+    background-color: rgb(24, 158, 236);
+    color: white;
+    border:none;
+}
+.refresh:hover{
+    cursor: pointer;
+    background-color: rgb(16, 101, 150);
+}
